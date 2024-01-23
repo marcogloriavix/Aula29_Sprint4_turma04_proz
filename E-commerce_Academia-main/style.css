@@ -123,8 +123,42 @@ section p{
 }
 
 #sobrenos{
-  margin: 0;
+  margin: 30px;
 }
+
+#sobrenos p{
+  margin: 30px;
+}
+
+#sobrenos h2{
+  margin: 30px;
+}
+
+#sobrenos ul {
+  display: flex;
+ list-style:disc;
+ padding: 20px;
+ }
+
+#sobrenos ul li{
+  display: flex;
+  font-size: 20px;
+  color:#ffcc00
+  
+  
+  /*gap: 3rem;*/
+}
+
+#sobrenos h2{
+  display: flex;
+  list-style:circle;
+  font-size: 20px;
+  color:white
+  
+  /*gap: 3rem;*/
+}
+
+    
 
 #formulario {
   display: flex;
@@ -141,8 +175,9 @@ section p{
 
 #formulario_click{
   display: flex;
-  font-size: 30px;
+  font-size: 60px;
   margin: 30px;
+  
 }
 
 
@@ -241,42 +276,168 @@ footer ul li {
 /* Secção masculina */
 /**  ================================================== */
 
-#section_masculino {
-  display: flex;
-}
-
-#div_masculino{
-  /*background-image: url("./img/img4.jpg");*/
-  /*object-fit:cover;*/
-  /**margin:16px;**/
-  padding: 15px;
-  height: 200px;;
-  width:300px;
-  border-radius: 100px;
-}
-
-#div_masculino img{
-  width: 80%; /* Ajusta a largura da imagem para preencher completamente a div */
-  height: 100%; /* Ajusta a altura da imagem para preencher completamente a div */
-  object-fit: cover; /* Mantém a proporção da imagem e a ajusta para cobrir completamente a div */
-}
-
-/* aumenta a imagem quando mouse passa por cima da imagem*/
-#div_masculino img:hover {
-  transform: scale(1.1);
-}
-
-#div_masculino h3{
-  font-size: 20px;
-  padding: 10px;
-  color:chartreuse;
-}
-
 #body_masculino {
   background-image: linear-gradient(to right,black, rgb(109, 50, 109), purple , rgb(236, 48, 48));
   background-size: cover;
  
 }
 
+#section_masculino {
+  /*display: flex;*/
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.div_masculino {
+  /*background-image: url("./img/img4.jpg");*/
+  /*object-fit:cover;*/
+  /**margin:16px;**/
+ /* padding: 15px;
+  height: 200px;;
+  width:300px;
+  border-radius: 100px;*/
+  width: 25%;
+  margin: 20px;
+}
+
+.div_masculino img{
+ /* width: 80%; /* Ajusta a largura da imagem para preencher completamente a div */
+ /* height: 100%; /* Ajusta a altura da imagem para preencher completamente a div */
+  /*object-fit: cover; /* Mantém a proporção da imagem e a ajusta para cobrir completamente a div */
+ 
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid black;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* aumenta a imagem quando mouse passa por cima da imagem*/
+.div_masculino img:hover {
+  transform: scale(1.1);
+}
+
+.div_masculino h3{
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color:chartreuse;
+}
+
+.div_masculino p {
+  color: royalblue;
+}
+
+#form-imagem{
+  display:table;
+  padding: 20px;
+  height: 100px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+#form-imagem h2{
+  display: table;
+  font-size: 20px;
+  color:chartreuse;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+
+#form-imagem h3{
+  display: flex;
+  font-size: 15px;
+  color:rgb(255, 94, 0);
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+#form-imagem h4{
+  display: flex;
+  font-size: 10px;
+  color:rgb(255, 94, 0);
+  height: 10px;
+  margin-bottom: 90px;
+}
+
+
+#imagem-form{
+   width: 600px;
+   margin: 0 auto;
+}
+
+#imagem-form label {
+   margin-bottom: 8px;
+}
+
+#imagem-form input {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 16px;
+   box-sizing: border-box; 
+}
+
+#imagem-form button {
+   background-color: #ffcc00;
+   color: #000;
+   padding: 10px;
+   cursor: pointer;
+   border: none;
+}
+
+#imagem-form button:hover{
+   filter: brightness(0.9);
+}
+
 /**  ================================================== */
 /**  ================================================== */
+
+
+/**  ================================================== */
+/* Secção feminina */
+/**  ================================================== */
+
+.section_construcao  {
+  margin-top: 50px;
+  font-size: 50px;
+  padding: 50px;
+  margin:50px;
+  color:#ffcc00
+
+ 
+}
+
+
+/**  ================================================== */
+/* Secção suplementos */
+/**  ================================================== */
+
+.section_construcao  {
+  margin-top: 50px;
+  font-size: 50px;
+  padding: 50px;
+  margin:50px;
+  color:#ffcc00
+
+ 
+}
+
+
+
+/**  ================================================== */
+/* Secção treino */
+/**  ================================================== */
+
+.section_construcao  {
+  margin-top: 50px;
+  font-size: 50px;
+  padding: 50px;
+  margin:50px;
+  color:#ffcc00
+
+ 
+}

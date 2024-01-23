@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet"/> 
+    <script src="./masculino.js" defer></script>
     <title>Masculino</title>
 </head>
 <body id="body_masculino">
@@ -35,24 +36,62 @@
         </nav>         
         </nav>
     </header>
-    <main>
-        <p>Nesta seção, encontrará diversos modelos de roupas masculinas.</p>
+   
+    
+        <p style="color:rgb(230, 199, 230)">Nesta seção, encontrará diversos modelos de roupas masculinas.</p>
 
         <section id="section_masculino">
-            <div id="div_masculino">
-              <h3>Modelo 1</h3>
-              <img src="./img/img4.jpg">
-              <!--<p> ***** .</p> -->
+            <div class="div_masculino">
+             <img src="./img/img4.jpg" alt="imagem do Modelo 1" />
+             <h3>Modelo 1</h3>
+             <p> Conjunto completo-Camisa,Bermuda e acessórios</p>
             </div>
-            <div id="div_masculino">
+
+            <div class="div_masculino">
+              <img src="./img/img5.png"  alt="imagem do Modelo 2" />
               <h3>Modelo 2</h3>
-              <img src="./img/img5.png">
-              <!--<p>***</p> -->
+              <p> camisa Termica</p>
             </div>
+
+            <div class="div_masculino">
+                <img src="./img/img7.jpg"  alt="imagem do Modelo 3" />
+                <h3>Modelo 3</h3>
+                <p> Casaco</p>
+              </div>
+
+              <div class="div_masculino">
+                <img src="./img/img8.jpg"  alt="imagem do Modelo 4" />
+                <h3>Modelo 4</h3>
+                <p> Calça</p>
+              </div>
+
           </section>
 
+<!-- Para adicionar imagem ao site -->
+          <section id="form-imagem">
+           
+               <h2>Postagem de Novos Modelos </h2>
+               <h3>Acesso Restrito</h3>
+               <h4> Exemplo URL da imagem : ./img/img9.jpg <br>
+                    Disponível:  img4 a img20.jpg
+                </h4>
+           
+            <form id="imagem-form">
+                <label for="imagem_name">Nome da imagem</label>
+                <input type="text" id="imagem_name" required />
 
-    </main>
+                <label for="descricao_imagem">Descrição imagem</label>
+                <input type="text" id="descricao_imagem" required />
+
+                <label for="imagem_image">URL do imagem</label>
+                <input type="url" id="imagem_image" required />
+
+                <button type="submit" onclick="adicionarImagem()">Adicionar imagem</button>
+            </form>
+        </section>
+
+
+   
     <footer>
         <h2 id="header-h2"> DressCode For Sport</h2>
         <h2>D4S &#169;</h2>
@@ -61,8 +100,6 @@
             <li><img src="./img/face-logo.png" alt="Logo-facebook"></li>            
         </ul>
     </footer>
-</body>
-</html>
-    
+
 </body>
 </html>
