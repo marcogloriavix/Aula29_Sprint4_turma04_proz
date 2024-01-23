@@ -249,7 +249,7 @@ footer ul li {
   /*background-image: url("./img/img4.jpg");*/
   /*object-fit:cover;*/
   /**margin:16px;**/
-  padding: 20px;
+  padding: 15px;
   height: 200px;;
   width:300px;
   border-radius: 100px;
@@ -257,12 +257,18 @@ footer ul li {
 
 #div_masculino img{
   width: 80%; /* Ajusta a largura da imagem para preencher completamente a div */
-  height: 110%; /* Ajusta a altura da imagem para preencher completamente a div */
+  height: 100%; /* Ajusta a altura da imagem para preencher completamente a div */
   object-fit: cover; /* Mantém a proporção da imagem e a ajusta para cobrir completamente a div */
+}
+
+/* aumenta a imagem quando mouse passa por cima da imagem*/
+#div_masculino img:hover {
+  transform: scale(1.1);
 }
 
 #div_masculino h3{
   font-size: 20px;
+  padding: 10px;
   color:chartreuse;
 }
 
@@ -271,3 +277,6 @@ footer ul li {
   background-size: cover;
  
 }
+
+/**  ================================================== */
+/**  ================================================== */
